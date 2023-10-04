@@ -1,7 +1,7 @@
 {
-  "name": "karma-sauce-launcher",
+  "name": "karma-sauce-launcher-fix-firefox",
   "version": "3.0.1",
-  "description": "A Karma plugin. Launch any browser on SauceLabs!",
+  "description": "Fork of karma-sauce-launcher to work around a Firefox issue",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc -p src",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-sauce-launcher.git"
+    "url": "git://github.com/nolanlawson/karma-sauce-launcher.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
